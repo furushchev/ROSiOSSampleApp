@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F85483FA1A4EAA8300EB789E /* TopicListTableViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F85483F91A4EAA8200EB789E /* TopicListTableViewController.mm */; };
+		F85483FD1A4EAADF00EB789E /* TopicListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F85483FC1A4EAADF00EB789E /* TopicListTableViewCell.m */; };
+		F89DFF791A47EE84000EFCD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F89DFF781A47EE84000EFCD0 /* main.m */; };
+		F89DFF7C1A47EE84000EFCD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F89DFF7B1A47EE84000EFCD0 /* AppDelegate.m */; };
+		F89DFF7F1A47EE84000EFCD0 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F89DFF7E1A47EE84000EFCD0 /* ViewController.mm */; };
+		F89DFF821A47EE84000EFCD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89DFF801A47EE84000EFCD0 /* Main.storyboard */; };
+		F89DFF841A47EE84000EFCD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F89DFF831A47EE84000EFCD0 /* Images.xcassets */; };
+		F89DFF871A47EE84000EFCD0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F89DFF851A47EE84000EFCD0 /* LaunchScreen.xib */; };
+		F89DFF931A47EE84000EFCD0 /* ROSiOSSampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F89DFF921A47EE84000EFCD0 /* ROSiOSSampleAppTests.m */; };
+		F8BC0A841A495A690033CB4B /* geometry_msgs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BC0A7C1A495A690033CB4B /* geometry_msgs.framework */; };
+		F8BC0A851A495A690033CB4B /* ros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BC0A7D1A495A690033CB4B /* ros.framework */; };
+		F8BC0A861A495A690033CB4B /* std_msgs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BC0A7E1A495A690033CB4B /* std_msgs.framework */; };
+		F8BC0A871A495A690033CB4B /* log4cxx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BC0A7F1A495A690033CB4B /* log4cxx.framework */; };
+		F8BC0A881A495A690033CB4B /* boost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BC0A801A495A690033CB4B /* boost.framework */; };
+		F8BC0A891A495A690033CB4B /* nav_msgs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BC0A811A495A690033CB4B /* nav_msgs.framework */; };
+		F8BC0A8A1A495A690033CB4B /* rosgraph_msgs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BC0A821A495A690033CB4B /* rosgraph_msgs.framework */; };
+		F8BC0A8B1A495A6A0033CB4B /* sensor_msgs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BC0A831A495A690033CB4B /* sensor_msgs.framework */; };
+		F8BC0A8D1A495A9D0033CB4B /* libiconv.2.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BC0A8C1A495A9D0033CB4B /* libiconv.2.4.0.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F89DFF8D1A47EE84000EFCD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F89DFF6B1A47EE84000EFCD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F89DFF721A47EE84000EFCD0;
+			remoteInfo = ROSiOSSampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F85483F81A4EAA8200EB789E /* TopicListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicListTableViewController.h; sourceTree = "<group>"; };
+		F85483F91A4EAA8200EB789E /* TopicListTableViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TopicListTableViewController.mm; sourceTree = "<group>"; };
+		F85483FB1A4EAADE00EB789E /* TopicListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicListTableViewCell.h; sourceTree = "<group>"; };
+		F85483FC1A4EAADF00EB789E /* TopicListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicListTableViewCell.m; sourceTree = "<group>"; };
+		F89DFF731A47EE84000EFCD0 /* ROSiOSSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ROSiOSSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89DFF771A47EE84000EFCD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F89DFF781A47EE84000EFCD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F89DFF7A1A47EE84000EFCD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F89DFF7B1A47EE84000EFCD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F89DFF7D1A47EE84000EFCD0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F89DFF7E1A47EE84000EFCD0 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		F89DFF811A47EE84000EFCD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F89DFF831A47EE84000EFCD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F89DFF861A47EE84000EFCD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F89DFF8C1A47EE84000EFCD0 /* ROSiOSSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ROSiOSSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89DFF911A47EE84000EFCD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F89DFF921A47EE84000EFCD0 /* ROSiOSSampleAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ROSiOSSampleAppTests.m; sourceTree = "<group>"; };
+		F8BC0A7C1A495A690033CB4B /* geometry_msgs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = geometry_msgs.framework; sourceTree = "<group>"; };
+		F8BC0A7D1A495A690033CB4B /* ros.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ros.framework; sourceTree = "<group>"; };
+		F8BC0A7E1A495A690033CB4B /* std_msgs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = std_msgs.framework; sourceTree = "<group>"; };
+		F8BC0A7F1A495A690033CB4B /* log4cxx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = log4cxx.framework; sourceTree = "<group>"; };
+		F8BC0A801A495A690033CB4B /* boost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = boost.framework; sourceTree = "<group>"; };
+		F8BC0A811A495A690033CB4B /* nav_msgs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nav_msgs.framework; sourceTree = "<group>"; };
+		F8BC0A821A495A690033CB4B /* rosgraph_msgs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = rosgraph_msgs.framework; sourceTree = "<group>"; };
+		F8BC0A831A495A690033CB4B /* sensor_msgs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = sensor_msgs.framework; sourceTree = "<group>"; };
+		F8BC0A8C1A495A9D0033CB4B /* libiconv.2.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.4.0.dylib; path = usr/lib/libiconv.2.4.0.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F89DFF701A47EE84000EFCD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BC0A8D1A495A9D0033CB4B /* libiconv.2.4.0.dylib in Frameworks */,
+				F8BC0A891A495A690033CB4B /* nav_msgs.framework in Frameworks */,
+				F8BC0A841A495A690033CB4B /* geometry_msgs.framework in Frameworks */,
+				F8BC0A881A495A690033CB4B /* boost.framework in Frameworks */,
+				F8BC0A851A495A690033CB4B /* ros.framework in Frameworks */,
+				F8BC0A8B1A495A6A0033CB4B /* sensor_msgs.framework in Frameworks */,
+				F8BC0A871A495A690033CB4B /* log4cxx.framework in Frameworks */,
+				F8BC0A861A495A690033CB4B /* std_msgs.framework in Frameworks */,
+				F8BC0A8A1A495A690033CB4B /* rosgraph_msgs.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89DFF891A47EE84000EFCD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F89DFF6A1A47EE84000EFCD0 = {
+			isa = PBXGroup;
+			children = (
+				F89DFF751A47EE84000EFCD0 /* ROSiOSSampleApp */,
+				F89DFF8F1A47EE84000EFCD0 /* ROSiOSSampleAppTests */,
+				F89DFF741A47EE84000EFCD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F89DFF741A47EE84000EFCD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F89DFF731A47EE84000EFCD0 /* ROSiOSSampleApp.app */,
+				F89DFF8C1A47EE84000EFCD0 /* ROSiOSSampleAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F89DFF751A47EE84000EFCD0 /* ROSiOSSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				F89DFFAC1A47EEBE000EFCD0 /* Frameworks */,
+				F89DFF7A1A47EE84000EFCD0 /* AppDelegate.h */,
+				F89DFF7B1A47EE84000EFCD0 /* AppDelegate.m */,
+				F89DFF7D1A47EE84000EFCD0 /* ViewController.h */,
+				F89DFF7E1A47EE84000EFCD0 /* ViewController.mm */,
+				F85483F81A4EAA8200EB789E /* TopicListTableViewController.h */,
+				F85483F91A4EAA8200EB789E /* TopicListTableViewController.mm */,
+				F89DFF801A47EE84000EFCD0 /* Main.storyboard */,
+				F85483FB1A4EAADE00EB789E /* TopicListTableViewCell.h */,
+				F85483FC1A4EAADF00EB789E /* TopicListTableViewCell.m */,
+				F89DFF831A47EE84000EFCD0 /* Images.xcassets */,
+				F89DFF851A47EE84000EFCD0 /* LaunchScreen.xib */,
+				F89DFF761A47EE84000EFCD0 /* Supporting Files */,
+			);
+			path = ROSiOSSampleApp;
+			sourceTree = "<group>";
+		};
+		F89DFF761A47EE84000EFCD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F89DFF771A47EE84000EFCD0 /* Info.plist */,
+				F89DFF781A47EE84000EFCD0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F89DFF8F1A47EE84000EFCD0 /* ROSiOSSampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F89DFF921A47EE84000EFCD0 /* ROSiOSSampleAppTests.m */,
+				F89DFF901A47EE84000EFCD0 /* Supporting Files */,
+			);
+			path = ROSiOSSampleAppTests;
+			sourceTree = "<group>";
+		};
+		F89DFF901A47EE84000EFCD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F89DFF911A47EE84000EFCD0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F89DFFAC1A47EEBE000EFCD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8BC0A8C1A495A9D0033CB4B /* libiconv.2.4.0.dylib */,
+				F8BC0A7C1A495A690033CB4B /* geometry_msgs.framework */,
+				F8BC0A7D1A495A690033CB4B /* ros.framework */,
+				F8BC0A7E1A495A690033CB4B /* std_msgs.framework */,
+				F8BC0A7F1A495A690033CB4B /* log4cxx.framework */,
+				F8BC0A801A495A690033CB4B /* boost.framework */,
+				F8BC0A811A495A690033CB4B /* nav_msgs.framework */,
+				F8BC0A821A495A690033CB4B /* rosgraph_msgs.framework */,
+				F8BC0A831A495A690033CB4B /* sensor_msgs.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F89DFF721A47EE84000EFCD0 /* ROSiOSSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F89DFF961A47EE84000EFCD0 /* Build configuration list for PBXNativeTarget "ROSiOSSampleApp" */;
+			buildPhases = (
+				F89DFF6F1A47EE84000EFCD0 /* Sources */,
+				F89DFF701A47EE84000EFCD0 /* Frameworks */,
+				F89DFF711A47EE84000EFCD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ROSiOSSampleApp;
+			productName = ROSiOSSampleApp;
+			productReference = F89DFF731A47EE84000EFCD0 /* ROSiOSSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F89DFF8B1A47EE84000EFCD0 /* ROSiOSSampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F89DFF991A47EE84000EFCD0 /* Build configuration list for PBXNativeTarget "ROSiOSSampleAppTests" */;
+			buildPhases = (
+				F89DFF881A47EE84000EFCD0 /* Sources */,
+				F89DFF891A47EE84000EFCD0 /* Frameworks */,
+				F89DFF8A1A47EE84000EFCD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F89DFF8E1A47EE84000EFCD0 /* PBXTargetDependency */,
+			);
+			name = ROSiOSSampleAppTests;
+			productName = ROSiOSSampleAppTests;
+			productReference = F89DFF8C1A47EE84000EFCD0 /* ROSiOSSampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F89DFF6B1A47EE84000EFCD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "JSK Lab.";
+				TargetAttributes = {
+					F89DFF721A47EE84000EFCD0 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F89DFF8B1A47EE84000EFCD0 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F89DFF721A47EE84000EFCD0;
+					};
+				};
+			};
+			buildConfigurationList = F89DFF6E1A47EE84000EFCD0 /* Build configuration list for PBXProject "ROSiOSSampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F89DFF6A1A47EE84000EFCD0;
+			productRefGroup = F89DFF741A47EE84000EFCD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F89DFF721A47EE84000EFCD0 /* ROSiOSSampleApp */,
+				F89DFF8B1A47EE84000EFCD0 /* ROSiOSSampleAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F89DFF711A47EE84000EFCD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89DFF821A47EE84000EFCD0 /* Main.storyboard in Resources */,
+				F89DFF871A47EE84000EFCD0 /* LaunchScreen.xib in Resources */,
+				F89DFF841A47EE84000EFCD0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89DFF8A1A47EE84000EFCD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F89DFF6F1A47EE84000EFCD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89DFF7F1A47EE84000EFCD0 /* ViewController.mm in Sources */,
+				F89DFF7C1A47EE84000EFCD0 /* AppDelegate.m in Sources */,
+				F89DFF791A47EE84000EFCD0 /* main.m in Sources */,
+				F85483FD1A4EAADF00EB789E /* TopicListTableViewCell.m in Sources */,
+				F85483FA1A4EAA8300EB789E /* TopicListTableViewController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89DFF881A47EE84000EFCD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89DFF931A47EE84000EFCD0 /* ROSiOSSampleAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F89DFF8E1A47EE84000EFCD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F89DFF721A47EE84000EFCD0 /* ROSiOSSampleApp */;
+			targetProxy = F89DFF8D1A47EE84000EFCD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F89DFF801A47EE84000EFCD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F89DFF811A47EE84000EFCD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F89DFF851A47EE84000EFCD0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F89DFF861A47EE84000EFCD0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F89DFF941A47EE84000EFCD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F89DFF951A47EE84000EFCD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F89DFF971A47EE84000EFCD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ROSiOSSampleApp",
+				);
+				INFOPLIST_FILE = ROSiOSSampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F89DFF981A47EE84000EFCD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ROSiOSSampleApp",
+				);
+				INFOPLIST_FILE = ROSiOSSampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F89DFF9A1A47EE84000EFCD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ROSiOSSampleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ROSiOSSampleApp.app/ROSiOSSampleApp";
+			};
+			name = Debug;
+		};
+		F89DFF9B1A47EE84000EFCD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ROSiOSSampleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ROSiOSSampleApp.app/ROSiOSSampleApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F89DFF6E1A47EE84000EFCD0 /* Build configuration list for PBXProject "ROSiOSSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89DFF941A47EE84000EFCD0 /* Debug */,
+				F89DFF951A47EE84000EFCD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F89DFF961A47EE84000EFCD0 /* Build configuration list for PBXNativeTarget "ROSiOSSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89DFF971A47EE84000EFCD0 /* Debug */,
+				F89DFF981A47EE84000EFCD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F89DFF991A47EE84000EFCD0 /* Build configuration list for PBXNativeTarget "ROSiOSSampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89DFF9A1A47EE84000EFCD0 /* Debug */,
+				F89DFF9B1A47EE84000EFCD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F89DFF6B1A47EE84000EFCD0 /* Project object */;
+}
